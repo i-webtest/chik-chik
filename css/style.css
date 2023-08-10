@@ -1,13 +1,10 @@
-/* raleway-regular - latin_cyrillic */
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   src: local(''),
     url('../fonts/raleway-v28-latin_cyrillic-regular.woff2') format('woff2'),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
     url('../fonts/raleway-v28-latin_cyrillic-regular.woff') format('woff');
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 html {
@@ -29,9 +26,41 @@ body {
   color: #F6F3E3;
 }
 
-img {
+img,
+svg {
+  display: block;
   max-width: 100%;
+  max-height: 100%;
   height: auto;
+}
+
+button {
+  display: block;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+  margin: 0;
 }
 
 .visually-hidden {

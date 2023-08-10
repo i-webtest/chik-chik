@@ -1,0 +1,141 @@
+.about {
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+.about__title {
+  max-width: 700px;
+  font-weight: 400;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.about__description {
+  max-width: 696px;
+  line-height: 150%;
+  color: #BFBDB2;
+  margin-bottom: 72px;
+}
+
+.about__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 384px);
+  gap: 24px 32px;
+}
+
+.about__item {
+  background-size: 80px;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 6px 6px 6px 96px;
+}
+
+.about__item:nth-child(1) .about__item-description {
+  max-width: 160px;
+}
+
+.about__item:nth-child(2) .about__item-description {
+  max-width: 180px;
+}
+
+.about__item_top {
+  background-image: url('../img/top.svg');
+}
+
+.about__item_master {
+  background-image: url('../img/master.svg');
+}
+
+.about__item_warranty {
+  background-image: url('../img/warranty.svg');
+}
+
+.about__item-title {
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.about__item-description {
+  line-height: 130%;
+  color: #BFBDB2;
+}
+
+@media(max-width: 1024px) {
+  .about__description {
+    margin-bottom: 46px;
+  }
+
+  .about__list {
+    grid-template-columns: repeat(auto-fit, 290px);
+    gap: 24px 29px;
+  }
+
+  .about__item {
+    background-position: left top;
+    padding: 96px 0 0;
+  }
+
+  .about__item:nth-child(1) .about__item-description {
+    max-width: 250px;
+  }
+
+  .about__item:nth-child(2) .about__item-description {
+    max-width: 280px;
+  }
+}
+
+@media(max-width: 768px) {
+  .about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about__title {
+    font-size: 32px;
+  }
+
+  .about__description {
+    margin-bottom: 32px;
+  }
+
+  .about__item {
+    padding: 6px 6px 6px 96px;
+  }
+
+  .about__item-title {
+    font-size: 16px;
+  }
+
+  .about__item:nth-child(1) .about__item-description {
+    max-width: 160px;
+  }
+}
+
+@media(max-width: 560px) {
+  .about {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .about__title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .about__description {
+    font-size: 12px;
+  }
+
+  .about__item {
+    background-size: 64px;
+    padding: 6px 6px 6px 72px;
+  }
+
+  .about__item-description {
+    font-size: 12px;
+  }
+}
+
