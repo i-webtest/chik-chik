@@ -54,6 +54,10 @@ ul {
   margin: 0;
 }
 
+ol {
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -61,6 +65,10 @@ p,
 figure,
 fieldset {
   margin: 0;
+}
+
+fieldset {
+  padding: 0;
 }
 
 .visually-hidden {
