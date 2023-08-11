@@ -8,7 +8,9 @@
   text-transform: uppercase;
   max-width: 904px;
   margin: 0 0 36px;
+  
 }
+
 
 @media(max-width: 768px) {
   .hero {
