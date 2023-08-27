@@ -4,10 +4,6 @@
 
 }
 
-.slider__container {
-  /* display: none; */
-}
-
 .slider__list {
   display: flex;
   list-style: none;

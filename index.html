@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/reserve.css" />
     <link rel="stylesheet" href="css/radio.css" />
+    <link rel="stylesheet" href="css/footer.css" />
 
     <script src="js/index.js"></script>
   </head>
@@ -48,7 +49,7 @@
         <div class="container">
           <h1 class="hero__title">
             <span class="visually-hidden">Барбершоп Chik-chik</span>
-            <span>Мы создаём искусство, которое не стыдно показать</span>
+            <span>Мы создаём искусство, которое&nbsp;не стыдно показать</span>
           </h1>
 
           <div class="hero__slider slider">
@@ -342,30 +343,30 @@
 
     <footer class="footer">
       <div class="container">
-        <img class="footer__logo logo" src="img/logo.svg" alt="Логотип барбершоп Chik-chik" />
+        <div class="footer__container">
+          <img class="footer__logo logo" src="img/logo.svg" alt="Логотип барбершоп Chik-chik" />
 
-        <div class="navigation">
-          <ul class="navigation__list">
-            <li class="navigation__item">
-              <a href="#price" class="navigation__link">Стоимость услуг</a>
+          <div class="footer__navigation navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="#price" class="navigation__link">Стоимость услуг</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#about" class="navigation__link">О нас</a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer__developers">
+            <li class="footer__developer">
+              Designer: <a class="footer__developer-link" href="https://t.me/Mrshmallowww">Anastasia Ilina</a>
             </li>
-            <li class="navigation__item">
-              <a href="#about" class="navigation__link">О нас</a>
+            <li class="footer__developer">
+              Developer: <a class="footer__developer-link" href="#">Stanislav Groshev</a>
             </li>
           </ul>
-        </div>
 
-        <div class="footer__item footer__item_development footer-development">
-          <ul class="footer-development__list">
-            <li class="footer-development__item">
-              Designer: <a class="footer__link" href="https://t.me/Mrshmallowww">Anastasia Ilina</a>
-            </li>
-            <li class="footer-development__item">Developer: <a class="footer__link" href="#">Stanislav Groshev</a></li>
-          </ul>
-        </div>
-
-        <div class="footer__item footer__item_copyright footer-copyright">
-          <p>© chik chik, 2023</p>
+          <p class="footer__copyright">&copy; chik chik, 2023</p>
         </div>
       </div>
     </footer>

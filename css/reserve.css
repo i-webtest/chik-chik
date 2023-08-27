@@ -1,6 +1,6 @@
 .reserve {
   padding-top: 62px;
-  padding-bottom: 62px;
+  padding-bottom: 124px;
 }
 
 .reserve__title {
@@ -54,9 +54,65 @@
   margin-bottom: 24px;
 }
 
+@media (max-width: 768px) {
+  .reserve {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
 
+  .reserve__title {
+    font-size: 32px;
+  }
 
+  .reserve__list {
+    margin-bottom: 40px;
+  }
 
+  .reserve__form-container {
+    margin-bottom: 32px;
+  }
+
+  .reserve__fieldset {
+    margin-bottom: 40px;
+  }
+
+  .reserve__fieldset_sub {
+    margin-bottom: 20px;
+  }
+
+  .reserve__legend {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 560px) {
+  .reserve {
+    padding-top: 32px;
+    padding-bottom: 64px;
+  }
+
+  .reserve__title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .reserve__list {
+    font-size: 12px;
+    line-height: 120%;
+    padding-left: 18px;
+    margin-bottom: 32px;
+  }
+
+  .reserve__form-container {
+    margin-bottom: 24px;
+  }
+
+  .reserve__fieldset {
+    gap: 4px;
+    margin-bottom: 32px;
+  }
+}
 
 
   
